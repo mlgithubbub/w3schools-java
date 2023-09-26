@@ -1,4 +1,4 @@
-package JavaTutorial;
+package Java003Syntax;
 
 public class JavaSyntax {
 }
