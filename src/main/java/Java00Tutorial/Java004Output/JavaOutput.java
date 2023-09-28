@@ -1,4 +1,4 @@
-package Java004Output;
+package Java00Tutorial.Java004Output;
 
 public class JavaOutput {
 

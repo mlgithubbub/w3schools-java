@@ -1,4 +1,4 @@
-package Java006Variables;
+package Java00Tutorial.Java006Variables;
 
 public class JavaVariables {
 

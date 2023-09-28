@@ -1,4 +1,4 @@
-package Java007DataTypes;
+package Java00Tutorial.Java007DataTypes;
 
 public class JavaDataTypes {
 

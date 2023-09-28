@@ -1,4 +1,4 @@
-package Java010Strings;
+package Java00Tutorial.Java010Strings;
 
 public class JavaStrings {
 

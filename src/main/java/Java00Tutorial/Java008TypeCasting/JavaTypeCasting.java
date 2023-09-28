@@ -1,4 +1,4 @@
-package Java008TypeCasting;
+package Java00Tutorial.Java008TypeCasting;
 
 public class JavaTypeCasting {
 
