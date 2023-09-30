@@ -3,40 +3,40 @@ package Java02Classes.Java05Modifiers;
 //Declare a public class: accessible by any other class
 public class PublicClass {
 
-    public static void main(String[] args) {
-
-        PublicClass myClass = new PublicClass();
-
-        //PUBLIC accessible by any other class
-        System.out.println(myClass.publicAttribute);
-        System.out.println(myClass.publicFinalAttribute); //cannot be overridden/modified
-        System.out.println(PublicClass.publicStaticAttribute); //belongs to class instead of object
-        myClass.publicMethod();
-        myClass.publicFinalMethod();
-        publicStaticMethod();//belongs to class instead of object
-
-        //PRIVATE accessible only within declared class
-        System.out.println(myClass.privateAttribute);
-        myClass.privateMethod();
-
-        //DEFAULT accessible in the same package
-        System.out.println(myClass.defaultAttribute);
-        System.out.println(myClass.finalAttribute); //cannot be overridden/modified
-        System.out.println(PublicClass.staticAttribute); //belongs to class instead of object
-        myClass.defaultMethod();
-        myClass.finalMethod(); //cannot be overridden/modified
-        staticMethod(); //belongs to class instead of object
-
-        //PROTECTED accessible in the same package and by subclasses
-        System.out.println(myClass.protectedAttribute);
-        myClass.protectedMethod(); //accessible in the same package and by subclasses
-
-        //ABSTRACT only for inherited classes, create an object of the inheriting class to access methods and attributes
-        SubclassOfAbstractClass myInheritingClass = new SubclassOfAbstractClass();
-        System.out.println(myInheritingClass.abstractAttribute);
-        myInheritingClass.abstractMethod();
-
-    }
+//    public static void main(String[] args) {
+//
+//        PublicClass myClass = new PublicClass();
+//
+//        //PUBLIC accessible by any other class
+//        System.out.println(myClass.publicAttribute);
+//        System.out.println(myClass.publicFinalAttribute); //cannot be overridden/modified
+//        System.out.println(PublicClass.publicStaticAttribute); //belongs to class instead of object
+//        myClass.publicMethod();
+//        myClass.publicFinalMethod();
+//        publicStaticMethod();//belongs to class instead of object
+//
+//        //PRIVATE accessible only within declared class
+//        System.out.println(myClass.privateAttribute);
+//        myClass.privateMethod();
+//
+//        //DEFAULT accessible in the same package
+//        System.out.println(myClass.defaultAttribute);
+//        System.out.println(myClass.finalAttribute); //cannot be overridden/modified
+//        System.out.println(PublicClass.staticAttribute); //belongs to class instead of object
+//        myClass.defaultMethod();
+//        myClass.finalMethod(); //cannot be overridden/modified
+//        staticMethod(); //belongs to class instead of object
+//
+//        //PROTECTED accessible in the same package and by subclasses
+//        System.out.println(myClass.protectedAttribute);
+//        myClass.protectedMethod(); //accessible in the same package and by subclasses
+//
+//        //ABSTRACT only for inherited classes, create an object of the inheriting class to access methods and attributes
+//        SubclassOfAbstractClass myInheritingClass = new SubclassOfAbstractClass();
+//        System.out.println(myInheritingClass.abstractAttribute);
+//        myInheritingClass.abstractMethod();
+//
+//    }
 
     public String publicAttribute = "Public Attribute"; //Declare public attribute: accessible by any other class
     private String privateAttribute = "Private Attribute";  //Declare a private attribute: accessible only within
