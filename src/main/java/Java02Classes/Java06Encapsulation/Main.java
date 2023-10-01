@@ -1,4 +1,4 @@
-package Java06Encapsulation;
+package Java02Classes.Java06Encapsulation;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package Java07PackagesAndAPI;
+package Java02Classes.Java07PackagesAndAPI;
 
 public class MyPackageClass {
 

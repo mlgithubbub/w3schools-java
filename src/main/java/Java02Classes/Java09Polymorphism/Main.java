@@ -1,4 +1,4 @@
-package Java09Polymorphism;
+package Java02Classes.Java09Polymorphism;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package Java10InnerClasses;
+package Java02Classes.Java10InnerClasses;
 
 public class Main {
     public static void main(String[] args) {

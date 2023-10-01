@@ -1,4 +1,4 @@
-package Java08Inheritance;
+package Java02Classes.Java08Inheritance;
 
 public class Main {
 

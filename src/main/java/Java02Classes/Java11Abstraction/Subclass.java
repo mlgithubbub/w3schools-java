@@ -1,4 +1,4 @@
-package Java11Abstraction;
+package Java02Classes.Java11Abstraction;
 
 public class Subclass extends AbstractClass{
 
