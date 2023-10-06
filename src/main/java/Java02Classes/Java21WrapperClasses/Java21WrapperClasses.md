@@ -69,7 +69,7 @@ public class Main {
 Convert an `Integer` to a `String`and use the `length()` method of the String class to output the length of "string":
 
 ```java
-ublic class Main {
+public class Main {
   public static void main(String[] args) {
     Integer myInt = 100;
     String myString = myInt.toString();
